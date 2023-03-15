@@ -1,9 +1,18 @@
 <script>
-  const firstNum = 6;
+  import { browser } from '$app/environment';
+  
+  // Declare variables to avoid server-side errors
+  let firstNum = 0;
+  let secondNum = 0;
+  let operation = '';
 
-  const secondNum = 98.3;
-
-  const operation = 'add';
+  if (browser) {
+    firstNum = prompt('Add a first number.');
+  
+    secondNum = prompt('Add a second number.');
+  
+    operation = prompt('What operation?');
+  }
 
 </script>
 
