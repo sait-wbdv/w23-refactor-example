@@ -1,23 +1,11 @@
 <script>
   import './app.css';
+  import Header from '$lib/components/Header.svelte';
+  import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<header>
-  <a href="/" class="site-title">
-    <img src="/images/sait-logo.png" alt="SAIT Logo" width="200" height="252">
-    <div>Web Developer Fast Track</div>
-    
-  </a>
-  <nav class="main-nav">
-    <ul>
-      <li><a href="/schedule">Schedule</a></li>
-      <li><a href="/gallery">Gallery</a></li>
-      <li><a href="/dailies">Daily Code</a></li>
-    </ul>
-  </nav>
-</header>
+<Header />
+
 <slot></slot>
 
-<footer>
-  <p>&copy; 2023 Tony Grimes</p>
-</footer>
+<Footer />
