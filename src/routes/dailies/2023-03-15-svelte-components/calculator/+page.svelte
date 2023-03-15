@@ -7,9 +7,9 @@
   let operation = '';
 
   if (browser) {
-    firstNum = prompt('Add a first number.');
+    firstNum = Number(prompt('Add a first number.'));
   
-    secondNum = prompt('Add a second number.');
+    secondNum = Number(prompt('Add a second number.'));
   
     operation = prompt('What operation?');
   }
