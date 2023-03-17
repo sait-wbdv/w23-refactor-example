@@ -1,18 +1,18 @@
 <script>
-  let animalId = 237;
+  let imageId = 237;
 
   const handleClick = function() {
-    animalId++;
-    console.log(animalId);
+    imageId++;
+    console.log(imageId);
   }
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div on:click={handleClick}>
   <h3>Card Title</h3>
-  <img src="https://picsum.photos/id/{animalId}/200/200" alt="Random Lorem Picsum">
+  <img src="https://picsum.photos/id/{imageId}/200/200" alt="Random Lorem Picsum">
   <p>This is a puppy?</p>
-  <p>Current ID: {animalId}</p>
+  <p>Current ID: {imageId}</p>
 </div>
 
 <style>
