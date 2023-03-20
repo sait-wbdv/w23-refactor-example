@@ -15,7 +15,12 @@
     <li><strong>2023-03-20-js-objects</strong>
       <ul>
         <li><a href="/dailies/2023-03-20-js-objects/achievement-17">Spoilers: Achievement 17</a></li>
-        <li><a href="/dailies/2023-03-20-js-objects/adventurers">List D&amp;D Adventurers</a></li>
+        <li>List D&amp;D Adventurers
+          <ul>
+            <li><a href="/dailies/2023-03-20-js-objects/adventurers-starter">Starter code</a></li>
+            <li><a href="/dailies/2023-03-20-js-objects/adventurers-objects">Finished code</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
