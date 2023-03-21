@@ -8,7 +8,7 @@
     'Get dressed',
     'Leave for work',
     'Get breakfast to go'
-  ]
+  ];
 </script>
 <main>
   <h1>Morning Todos</h1>
