@@ -14,7 +14,8 @@
       'rusty knife',
       'gem',
       'journal'
-    ]
+    ],
+    url: 'https://en.wikipedia.org/wiki/Rogue_(Dungeons_%26_Dragons)'
   }
 
   /************/
@@ -32,7 +33,8 @@
       'sword',
       'leather armour',
       'rations'
-    ]
+    ],
+    url: 'https://en.wikipedia.org/wiki/Fighter_(Dungeons_%26_Dragons)'
   }
   /************/
   /* Player 3 */
@@ -49,7 +51,8 @@
       'staff',
       'cloak',
       'spell book'
-    ]
+    ],
+    url: 'https://en.wikipedia.org/wiki/Wizard_(Dungeons_%26_Dragons)'
   }
 
   const players = [player1, player2, player3];
@@ -59,63 +62,27 @@
 <main>
   <h1>List of Adventurers</h1>
   <section>
-    <a href="https://en.wikipedia.org/wiki/Rogue_(Dungeons_%26_Dragons)" target="_blank">
-      <article class="card">
-        <h3>{player1.name}</h3>
-        <ul>
-          <li>Race: {player1.race}</li>
-          <li>Class: {player1.class}</li>
-          <li>Level: {player1.level}</li>
-          <li>Health: {player1.health}</li>
-          <li>Poisoned: {player1.poisoned}</li>
-          <li>Backpack:
-            <ul>
-              {#each player1.backpack as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </li>
-        </ul>
-      </article>
-    </a>
-    <a href="https://en.wikipedia.org/wiki/Dwarf_(Dungeons_%26_Dragons)" target="_blank">
-      <article class="card">
-        <h3>{player2.name}</h3>
-        <ul>
-          <li>Race: {player2.race}</li>
-          <li>Class: {player2.class}</li>
-          <li>Level: {player2.level}</li>
-          <li>Health: {player2.health}</li>
-          <li>Poisoned: {player2.poisoned}</li>
-          <li>Backpack:
-            <ul>
-              {#each player2.backpack as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </li>
-        </ul>
-      </article>
-    </a>
-    <a href="https://en.wikipedia.org/wiki/Wizard_(Dungeons_%26_Dragons)" target="_blank">
-      <article class="card">
-        <h3>{player3.name}</h3>
-        <ul>
-          <li>Race: {player3.race}</li>
-          <li>Class: {player3.class}</li>
-          <li>Level: {player3.level}</li>
-          <li>Health: {player3.health}</li>
-          <li>Poisoned: {player3.poisoned}</li>
-          <li>Backpack:
-            <ul>
-              {#each player3.backpack as item}
-                <li>{item}</li>
-              {/each}
-            </ul>
-          </li>
-        </ul>
-      </article>
-    </a>
+    {#each players as player}
+      <a href="{player.url}" target="_blank">
+        <article class="card">
+          <h3>{player.name}</h3>
+          <ul>
+            <li>Race: {player.race}</li>
+            <li>Class: {player.class}</li>
+            <li>Level: {player.level}</li>
+            <li>Health: {player.health}</li>
+            <li>Poisoned: {player.poisoned}</li>
+            <li>Backpack:
+              <ul>
+                {#each player.backpack as item}
+                  <li>{item}</li>
+                {/each}
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </a>
+    {/each}
   </section>
 </main>
 
