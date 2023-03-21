@@ -26,6 +26,8 @@
     <li><strong>2023-03-21-galleries</strong>
       <ul>
         <li><a href="/dailies/2023-03-21-galleries/rpg-players-starter">RPG Gallery Starter</a></li>
+        <li><a href="/dailies/2023-03-21-galleries/rpg-players-array">RPG Gallery with Array</a></li>
+        <li><a href="/dailies/2023-03-21-galleries/rpg-players-module">RPG Gallery with Module</a></li>
       </ul>
     </li>
   </ul>
