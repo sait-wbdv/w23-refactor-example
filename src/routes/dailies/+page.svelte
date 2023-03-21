@@ -23,5 +23,10 @@
         </li>
       </ul>
     </li>
+    <li><strong>2023-03-21-galleries</strong>
+      <ul>
+        <li><a href="/dailies/2023-03-21-galleries/rpg-players-starter">RPG Gallery Starter</a></li>
+      </ul>
+    </li>
   </ul>
 </main>
