@@ -14,8 +14,7 @@
       'rusty knife',
       'gem',
       'journal'
-    ],
-    url: 'https://en.wikipedia.org/wiki/Rogue_(Dungeons_%26_Dragons)'
+    ]
   }
 
   /************/
@@ -33,8 +32,7 @@
       'sword',
       'leather armour',
       'rations'
-    ],
-    url: 'https://en.wikipedia.org/wiki/Fighter_(Dungeons_%26_Dragons)'
+    ]
   }
   /************/
   /* Player 3 */
@@ -51,15 +49,17 @@
       'staff',
       'cloak',
       'spell book'
-    ],
-    url: 'https://en.wikipedia.org/wiki/Wizard_(Dungeons_%26_Dragons)'
+    ]
   }
+
+  const players = [player1, player2, player3];
+
 </script>
 
 <main>
   <h1>List of Adventurers</h1>
   <section>
-    <a href="{player1.url}" target="_blank">
+    <a href="https://en.wikipedia.org/wiki/Rogue_(Dungeons_%26_Dragons)" target="_blank">
       <article class="card">
         <h3>{player1.name}</h3>
         <ul>
@@ -78,7 +78,7 @@
         </ul>
       </article>
     </a>
-    <a href="{player2.url}" target="_blank">
+    <a href="https://en.wikipedia.org/wiki/Dwarf_(Dungeons_%26_Dragons)" target="_blank">
       <article class="card">
         <h3>{player2.name}</h3>
         <ul>
@@ -97,7 +97,7 @@
         </ul>
       </article>
     </a>
-    <a href="{player3.url}" target="_blank">
+    <a href="https://en.wikipedia.org/wiki/Wizard_(Dungeons_%26_Dragons)" target="_blank">
       <article class="card">
         <h3>{player3.name}</h3>
         <ul>
