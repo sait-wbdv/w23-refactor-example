@@ -32,7 +32,14 @@
     </li>
     <li><strong>2023-03-22-route-params</strong>
       <ul>
-        <li><a href="/dailies/2023-03-22-route-params/players">RPG Players</a></li>
+        <li><a href="/dailies/2023-03-22-route-params/route-param-example">Route param example</a></li>
+        <li><a href="/dailies/2023-03-22-route-params/players">RPG Players</a>
+          <ul>
+            <li><a href="/dailies/2023-03-22-route-params/players/ryan">Ryan Reynolds</a></li>
+            <li><a href="/dailies/2023-03-22-route-params/players/gyda">Gyda</a></li>
+            <li><a href="/dailies/2023-03-22-route-params/players/anna">Anna</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
