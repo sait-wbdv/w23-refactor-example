@@ -7,7 +7,7 @@
   <h1>List of Adventurers</h1>
   <section>
     {#each players as player}
-      <a href="{player.url}" target="_blank">
+      <a href="/dailies/2023-03-22-route-params/players/{player.id}">
         <article class="card">
           <h3>{player.name}</h3>
           <ul>
