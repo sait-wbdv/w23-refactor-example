@@ -30,5 +30,10 @@
         <li><a href="/dailies/2023-03-21-galleries/rpg-players-module">RPG Gallery with Module</a></li>
       </ul>
     </li>
+    <li><strong>2023-03-22-route-params</strong>
+      <ul>
+        <li><a href="/dailies/2023-03-22-route-params/players">RPG Players</a></li>
+      </ul>
+    </li>
   </ul>
 </main>
